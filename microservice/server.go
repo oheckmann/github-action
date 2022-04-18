@@ -19,5 +19,5 @@ func NewServer(host string, port string) *http.Server {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Hello World!\n")
+    fmt.Fprintf(w, "Guten Tag Welt!\n")
 }
